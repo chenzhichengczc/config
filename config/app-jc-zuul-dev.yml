@@ -11,5 +11,5 @@ zuul:
       serviceId: app-jc-order
     api-c:
       ### 以 /api-order/访问转发到订单服务
-      path: /app/**
+      path: /pay/**
       serviceId: app-jc-pay
